@@ -25,5 +25,7 @@ class FourthExercise {
     System.out.println("Hora: " + hours);
     System.out.println("Minutos: " + minutes);
     System.out.println("Segundos: " + seconds);
+
+    secondsScanner.close();
   }
 }
