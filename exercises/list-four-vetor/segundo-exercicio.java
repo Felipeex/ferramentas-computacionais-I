@@ -67,8 +67,13 @@ class SegundoExercicio {
       if (somaElementosColuna[0] != somaElementosColuna[i]) return false;
     }
 
-    // verifica diagonal
-    if (somaPrimeiraDiagonal != somaSegundaDiagonal) {
+    // verifica somaPrimeiraDiagonal
+    if (somaPrimeiraDiagonal != somaElementosLinha[0]) {
+      return false;
+    }
+
+    // verifica somaSegundaDiagonal
+    if (somaSegundaDiagonal != somaElementosLinha[0]) {
       return false;
     }
 
